@@ -98,6 +98,9 @@ function guessedWrong(button){
             $('but4').addClass('btn-disabled');
 
             var objN = JSON.parse(localStorage.getItem('score'));
+            console.log(localStorage.getItem('score'));
+            console.log(localStorage);
+            
             var uScore = objN['score'];
 
             if(uScore > 0){
